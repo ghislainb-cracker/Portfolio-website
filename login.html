@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body{
+			font-family: arial,sans-serif;
+			background-color: white;
+			margin: 0;
+			padding:0;
+
+		}
+		.login-container{
+			max-width: 800px;
+			margin: 100px auto;
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+		}
+		h2{
+			margin-bottom: 20px;
+
+
+		}
+		p{
+			color: green;
+
+		}
+		.name{
+			display: inline;
+			justify-content: right;
+			align-items: right;
+		}
+		input[type="text"]{
+			width: 300px;
+			height:30px;
+			display: inline;
+		}
+		input[type="email"]{
+			width: 300px;
+			height:30px;
+			display: inline;
+		}
+		input[type="subject"]{
+			width: 800px;
+			height:30px;
+
+		}
+		input[type="message"]{
+			width: 800px;
+			height:200px;
+
+
+		}
+		button{
+			width: 200px;
+			padding: 15px;
+			text-align: center;
+			margin:20px 10px;
+			border-radius: 5px;
+			font-weight: bold;
+			border:2px solid #009688;
+			background: transparent;
+			cursor: pointer;
+			color: black;
+			position: relative;
+			overflow: hidden;
+			background-color: green;
+			}
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="login-container">
+		<form id="login-form">
+				<div class="name">
+		your name<label for="name"></label><br>
+		<input type="text" id="name"name="name"required placeholder="type your full names"><br>
+		your email<label for="email"></label><br>
+		<input type="email" id="email"name="email"required placeholder="type your email"><br>
+		subject<label for="subject"></label><br>
+		<input type="subject" id="subject"name="subject"required placeholder="type subject"><br>
+		<label for="your message">your massage</label><br>
+		<input type="message" id="password"name="password"required placeholder="write your message"><br>
+		<button>Send message</button>
+	</form>
+</div>
+
+
+
+</body>
+</html>
